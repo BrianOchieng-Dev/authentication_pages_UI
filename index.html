@@ -9,28 +9,28 @@
 <body>
    <section class="flex items-center justify-center h-screen bg-[url('img2.jpg')] bg-cover bg-center bg-no-repeat">
     <div>
-        <form class="bg-white p-4 rounded-xl">
-            <h1 class="text-2xl p-4 md:text-3xl lg:text-4xl font-bold">Sign Up</h1>
+        <form class="bg-white p-4 rounded-xl bg-blur">
+            <h1 class="text-2xl p-6 text-center md:text-3xl lg:text-4xl font-bold">Sign Up</h1>
             <div class="space-y-6">
-            <div>
-                <input type="text" placeholder="First name" required/>
-                 <input type="text" placeholder="Last name" required/>
+            <div class="space-x-2">
+                <input type="text" class="p-2 border border-2  border-green-200 focus:border-green-500 rounded-xl md:border-2 lg:border-2" placeholder="First name" required/>
+                 <input type="text"  class="p-2 border border-2  border-green-200 focus:border-green-500 rounded-xl md:border-2 lg:border-2" placeholder="Last name" required/>
             </div>
             <div>
-                <input type="email" placeholder="email" required/>
+                <input type="email"  class="p-2 border border-2  border-green-200 focus:border-green-500 rounded-xl md:border-2 lg:border-2 w-full" placeholder="email" required/>
             </div>
              <div>
-                 <input type="password" placeholder="password" required/>
+                 <input type="password"  class="p-2 border border-2  border-green-200 focus:border-green-500 rounded-xl md:border-2 lg:border-2 w-full" placeholder="password" required/>
             </div>
              <div>
-                 <input type="password" placeholder="confirm password" required/>
+                 <input type="password"  class="p-2 border border-2  border-green-200 focus:border-green-500 rounded-xl md:border-2 lg:border-2 w-full" placeholder="confirm password" required/>
             </div>
-            <div>
-                <input type="checkbox"/>  I agree with <span>privacy</span> and <span>policy</span>
+            <div class="text-center">
+                <p class="text-center"> <input type="checkbox"/> I agree with <span class="text-red-500">privacy</span> and <span class="text-red-500">policy</span></p>
             </div>
-            <button type="submit">Sign Up</button>
+            <button type="submit" class="bg-green-500 p-2 w-full rounded-xl text-xl font-semibold md:text-xl lg:text-xl">Sign Up</button>
             <div>
-                Already have an account? <span>Sign In</span>
+                <p class="text-center">Already have an account? <span class="text-red-500">Sign In</span></p>
             </div>
             </div>
         </form>
